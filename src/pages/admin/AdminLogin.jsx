@@ -12,7 +12,7 @@ function AdminLogin() {
 
     if (
       email === "admin@borrowbuddy.com" &&
-      password === "admin123"
+      password === "Admin@123"
     ) {
       const adminUser = {
         email: email,
