@@ -1,0 +1,13 @@
+database:
+Hostname: dpg-db3o9regekts73fj82v0-a
+Port: 5432
+Database: borrowbuddy
+Username: borrowbuddy_user
+Password: w1JE0ET3VTyPd9AHG4i97x4X7j94rO8R
+Internal Database URL: postgresql://borrowbuddy_user:w1JE0ET3VTyPd9AHG4i97x4X7j94rO8R@dpg-db3o9regekts73fj82v0-a/borrowbuddy
+External Database URL: postgresql://borrowbuddy_user:w1JE0ET3VTyPd9AHG4i97x4X7j94rO8R@dpg-db3o9regekts73fj82v0-a.singapore-postgres.render.com/borrowbuddy
+PSQL Command: PGPASSWORD=w1JE0ET3VTyPd9AHG4i97x4X7j94rO8R psql -h dpg-db3o9regekts73fj82v0-a.singapore-postgres.render.com -U borrowbuddy_user borrowbuddy
+
+
+backend:
+==> Available at your primary URL https://borrow-buddy-api.onrender.com
